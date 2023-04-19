@@ -1,6 +1,5 @@
+import 'package:feature_splash/splash_screen.dart';
 import 'package:flutter/material.dart';
-
-import 'feature/home/home_page.dart';
 
 class App extends StatelessWidget {
   const App({super.key});
@@ -13,7 +12,7 @@ class App extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.black),
         useMaterial3: false,
       ),
-      home: const MyHomePage(),
+      home: const SplashScreen(),
     );
   }
 }

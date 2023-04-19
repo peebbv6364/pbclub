@@ -1,6 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.naver.techone.pbclub.pbclub">
-    <application
+   <application
         android:label="pbclub"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
