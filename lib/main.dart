@@ -1,9 +1,9 @@
-import 'package:core_logger/app_logger.dart';
-import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
+import 'package:hobbies/service_locator_manager.dart';
 
 import 'app.dart';
 
-void main() {
-  logger.d("start Application");
+void main() async {
+  ServiceLocatorManager.setUp();
   runApp(const App());
 }

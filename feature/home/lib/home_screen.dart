@@ -1,0 +1,14 @@
+library feature_home;
+
+import 'package:core_navigator/test.dart';
+import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
+
+class HomeScreen extends StatelessWidget {
+  const HomeScreen({super.key});
+
+  @override
+  Widget build(BuildContext context) => const Material(
+        child: Text("HOME"),
+      );
+}

@@ -1,6 +1,6 @@
-name: pbclub
-description: Pangyo BoardGame Club
-publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+name: hobbies
+description: Super Apps For your hobby
+publish_to: 'none'
 version: 1.0.0+1
 environment:
   sdk: '>=2.19.6<4.0.0'
@@ -8,12 +8,13 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.2
+  get_it: ^7.6.0
   core_logger:
     path: core/logger
-
   feature_splash:
     path: feature/splash
-
+  feature_home:
+    path: feature/home
 dev_dependencies:
   flutter_test:
     sdk: flutter
